@@ -1,8 +1,10 @@
 <template>
   <div>
     <!--Navbar-->
-    <Menu/>
     <div class="container">
+      <!--Import de la barre de recherche par nom de pizza component/RechercherPizza.vue-->
+      <RechercherPizza/>
+      <!---->
       <div class="row">
         <div class="col-md-8 col-sm-12">
           <div class="row">
@@ -60,8 +62,6 @@
         </div>
       </div>
     </div>
-
-    <Footer/>
   </div>
 </template>
 

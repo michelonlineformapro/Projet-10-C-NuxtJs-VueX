@@ -1,6 +1,7 @@
 import http from '../http-config'
 
 const pizzasUrl = 'pizzas';
+const produitsURL = 'produits'
 
 class CrudServices{
 

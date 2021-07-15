@@ -1,8 +1,6 @@
 <template>
   <div>
-    <Menu/>
     <Tutorial/>
-    <Footer/>
   </div>
 
 </template>

@@ -202,6 +202,134 @@
       "ingredient2": "gruyère",
       "ingredient3": "thon",
       "ingredient4": "huile"
+    },
+    {
+      "id": 9,
+      "nom": "Creole",
+      "image": "https://www.pizzadelizia.fr/public/img/big/crolejpg_5b263c52efaa5.jpg",
+      "ingredient1": "tomate",
+      "ingredient2": "ananas",
+      "ingredient3": "curry",
+      "ingredient4": "coco"
+    },
+    {
+      "id": 10,
+      "nom": "Flammekeuche",
+      "image": "http://lesrecettesdemilie.fr/wp-content/uploads/2020/04/IMG_20200402_202333-678x381.jpg",
+      "ingredient1": "mozzarella",
+      "ingredient2": "lardon",
+      "ingredient3": "oignons",
+      "ingredient4": "creme"
+    },
+    {
+      "id": 11,
+      "nom": "Indienne",
+      "image": "https://cac.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcac.2F2018.2F09.2F25.2F29fddeac-0a55-4f4a-97eb-dd9d9d2afd38.2Ejpeg/750x562/quality/80/crop-from/center/cr/wqkgU3R1ZGlvL1N1Y3LDqSBzYWzDqSAvIEN1aXNpbmUgQWN0dWVsbGU%3D/pizza-indienne-au-poulet.jpeg",
+      "ingredient1": "poulet",
+      "ingredient2": "curry",
+      "ingredient3": "ananas",
+      "ingredient4": "oignons"
+    },
+    {
+      "id": 12,
+      "nom": "Chevre",
+      "image": "https://assets.afcdn.com/recipe/20160926/49927_w1024h576c1cx1872cy2808.jpg",
+      "ingredient1": "chevre",
+      "ingredient2": "miel",
+      "ingredient3": "noix",
+      "ingredient4": "pesto"
+    },
+    {
+      "id": 13,
+      "nom": "Fermiere",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/0e/94/79/31/pizza-fermiere-made-in.jpg",
+      "ingredient1": "roquefort",
+      "ingredient2": "oeuf",
+      "ingredient3": "ravioles",
+      "ingredient4": "poivre"
+    },
+    {
+      "id": 14,
+      "nom": "Dauphinoise",
+      "image": "https://www.pizzavroom.com/img_s1/102421/boutique/dauphinoise_3.jpg",
+      "ingredient1": "noix",
+      "ingredient2": "oeuf",
+      "ingredient3": "miel",
+      "ingredient4": "creme"
+    },
+    {
+      "id": 15,
+      "nom": "Ravioles",
+      "image": "https://cac.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcac.2F2018.2F09.2F25.2F7ac6554d-21d1-4f1b-a9f2-8653aa666a10.2Ejpeg/750x562/quality/80/crop-from/center/cr/wqkgQ2FybmV0L1N1Y3LDqSBzYWzDqSAvIEN1aXNpbmUgQWN0dWVsbGU%3D/pizza-ravioles.jpeg",
+      "ingredient1": "ravioles",
+      "ingredient2": "chedar",
+      "ingredient3": "mozzarella",
+      "ingredient4": "boeuf"
+    },
+    {
+      "id": 16,
+      "nom": "Norvegienne",
+      "image": "https://cdn.pizzamatch.com/1/28/1371560084-pizza-saumon-orig.JPG?1371560096",
+      "ingredient1": "saumon",
+      "ingredient2": "pesto",
+      "ingredient3": "crevette",
+      "ingredient4": "creme"
+    },
+    {
+      "id": 17,
+      "nom": "Gourmande",
+      "image": "https://static.750g.com/images/1200-630/5d3ca024505959dbf81cc40cc87d49cc/10-pizzas-trop-gourmandes-a-absolument-essayer.jpg",
+      "ingredient1": "poulet",
+      "ingredient2": "bacon",
+      "ingredient3": "champignon",
+      "ingredient4": "poivre"
+    },
+    {
+      "id": 18,
+      "nom": "Saint Jaques",
+      "image": "http://www.lesfoodies.com/_recipeimage/24044/pizza-aux-st-jacques-et-crevettes.jpg",
+      "ingredient1": "noix de saint jaques",
+      "ingredient2": "tomate",
+      "ingredient3": "pesto",
+      "ingredient4": "saumon"
+    }
+  ],
+  "ingredients": [
+    {
+      "id":1,
+      "nom": "tomate",
+      "image": "https://images.pexels.com/photos/4022123/pexels-photo-4022123.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "afficher": false
+    },
+    {
+      "id":2,
+      "nom": "mozzarella",
+      "image": "https://images.pexels.com/photos/3669501/pexels-photo-3669501.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "afficher": false
+    },
+    {
+      "id":3,
+      "nom": "anchois",
+      "image": "https://images.pexels.com/photos/5602613/pexels-photo-5602613.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "afficher": false
+    },
+    {
+      "id":4,
+      "nom": "olives",
+      "image": "https://images.pexels.com/photos/4109910/pexels-photo-4109910.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "afficher": false
+    },
+    {
+      "id":5,
+      "nom": "oignons",
+      "image": "https://images.pexels.com/photos/533342/pexels-photo-533342.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "afficher": false
+    },
+    {
+      "id":6,
+      "nom": "champignon",
+      "image": "https://images.pexels.com/photos/1249884/pexels-photo-1249884.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "afficher": false
     }
   ]
 }
