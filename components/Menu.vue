@@ -10,12 +10,17 @@
       <b-collapse class="nav-item" id="nav-collapse" is-nav>
 
           <b-navbar-nav>
-            <li class="nav-item">
+            <li>
               <nuxt-link class="nav-link" to="/">ACCUEIL</nuxt-link>
             </li>
-            <li class="nav-item">
+            <li>
               <nuxt-link class="nav-link" to="/pizza">PIZZAS</nuxt-link>
             </li>
+
+            <li>
+              <nuxt-link class="nav-link" to="/Creer-pizza">COMPOSER VOTRE PIZZA</nuxt-link>
+            </li>
+
           </b-navbar-nav>
 
 

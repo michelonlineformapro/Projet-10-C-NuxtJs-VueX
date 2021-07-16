@@ -23,7 +23,10 @@
                 :ingredient1="pizza.ingredient1"
                 :ingredient2="pizza.ingredient2"
                 :ingredient3="pizza.ingredient3"
-                :ingredient4="pizza.ingredient4">
+                :ingredient4="pizza.ingredient4"
+                :ingredient5="pizza.ingredient5"
+                :ingredient6="pizza.ingredient6"
+              >
               </PizzaComponent>
             </div>
           </div>
@@ -53,6 +56,8 @@
                 :ingredient2="pizza.ingredient2"
                 :ingredient3="pizza.ingredient3"
                 :ingredient4="pizza.ingredient4"
+                :ingredient5="pizza.ingredient5"
+                :ingredient6="pizza.ingredient6"
                 btn-status="btnSupprimer"
                 v-on:supprimer="setPizzaConcerner(pizza, index)"
               >
@@ -109,7 +114,7 @@ export default {
 
     //Ajouter une pizza dans le tableau de commande
     //Reprise des paramètre a passer lors de l'appel de la fonction (dans notre composant enfant on utilise $emit + nom de la fonction + liste des props
-    ajouterPizza(id,nom, image, ingredient1, ingredient2, ingredient3, ingredient4) {
+    ajouterPizza(id,nom, image, ingredient1, ingredient2, ingredient3, ingredient4,ingredient5,ingredient6) {
       //On ajoute au tableau vide de comande les elements a l'aide de la fonction js push()
       this.commandes.push({
         id:id,
@@ -118,7 +123,9 @@ export default {
         ingredient1: ingredient1,
         ingredient2: ingredient2,
         ingredient3: ingredient3,
-        ingredient4: ingredient4
+        ingredient4: ingredient4,
+        ingredient5: ingredient5,
+        ingredient6: ingredient6,
       });
       //Au click le booleen passe a true (v-if=commanderPizza dans le templatye)
       this.commanderPizza = true

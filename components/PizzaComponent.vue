@@ -6,11 +6,14 @@
     <div class="card-body">
       <h2 class="card-title text-white text-center"><b>{{nom}}</b></h2>
       <ul class="list-group">
+        <!--Si dans pizzas db.json un ingredient n'a pas de valeur on le cache-->
         <li class="list-group-item active">INGREDIENTS :</li>
-        <li class="list-group-item">{{ingredient1}}</li>
-        <li class="list-group-item">{{ingredient2}}</li>
-        <li class="list-group-item">{{ingredient3}}</li>
-        <li class="list-group-item">{{ingredient4}}</li>
+        <li v-if="ingredient1 !== ''" class="list-group-item">{{ingredient1}}</li>
+        <li v-if="ingredient2 !== ''" class="list-group-item">{{ingredient2}}</li>
+        <li v-if="ingredient3 !== ''" class="list-group-item">{{ingredient3}}</li>
+        <li v-if="ingredient4 !== ''" class="list-group-item">{{ingredient4}}</li>
+        <li v-if="ingredient5 !== ''" class="list-group-item">{{ingredient5}}</li>
+        <li v-if="ingredient6 !== ''" class="list-group-item">{{ingredient6}}</li>
       </ul>
       <hr>
       <!--$emit permet de declencher une fonction depuis le composant enfant qui est definie dans le composant parent-->
@@ -19,8 +22,8 @@
       <!--Idem pour le 2nd bouton event = supprimer-->
       <!--Dans le composant parent il ne reste plus qu'a appeler les fonction avec v-on-->
       <!--v-on:commander="ajouterPizza" et v-on:supprimer="setPizzaConcerner(pizza, index)"-->
-      <a v-if="btnStatus === 'btnCommander'" @click="$emit('commander',id, nom, image, ingredient1, ingredient2, ingredient3, ingredient4)" class="btn btn-info">COMMANDER</a>
-      <a v-if="btnStatus === 'btnSupprimer'" @click="$emit('supprimer',id, nom, image, ingredient1, ingredient2, ingredient3, ingredient4)" class="btn btn-danger">SUPPRIMER</a>
+      <a v-if="btnStatus === 'btnCommander'" @click="$emit('commander',id, nom, image, ingredient1, ingredient2, ingredient3, ingredient4, ingredient5, ingredient6)" class="btn btn-info">COMMANDER</a>
+      <a v-if="btnStatus === 'btnSupprimer'" @click="$emit('supprimer',id, nom, image, ingredient1, ingredient2, ingredient3, ingredient4,ingredient5, ingredient6)" class="btn btn-danger">SUPPRIMER</a>
       <hr>
     </div>
   </div>
@@ -33,7 +36,7 @@ export default {
   name: "PizzaComponent",
   components: {Pizza},
   //Définition des propriétés a utiliser pour afficher les valeurs dans le comosant parent
-  props: ['id','nom', 'image', 'ingredient1', 'ingredient2', 'ingredient3', 'ingredient4', 'btnStatus'],
+  props: ['id','nom', 'image', 'ingredient1', 'ingredient2', 'ingredient3', 'ingredient4', 'ingredient5','ingredient6', 'btnStatus'],
 }
 </script>
 

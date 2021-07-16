@@ -53,7 +53,7 @@ export default {
       rechercherPizza: false
     }
   },
-  //Propriété calcumée
+  //Propriété calculée
   computed:{
     //A utilisé dans la boucle v-for
     filtrerPizza(){
